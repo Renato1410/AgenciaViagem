@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.logo{
+height: 50px;
+width: 500px;
+
+}
+
+.header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: 2rem; 
+    background-color: black;
+    height: px; 
+}
+
+.wallpaper {
+    background-image: url(../assets/wallpaper.jpg); 
+    background-size: 100%; 
+    background-position: center; 
+    color: #fff; 
+    padding: 200px;
+    font-size: 120px; 
+    height: 100vh;
+    align-items: center;
+    text-align: left;
+}
+
+.contato{
+
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+
+}
+
+.form{
+
+    font-size: 50px;
+    padding: 50px;
+}
+
+.button{
+
+    width: 150px;
+    height: 50px; 
+    
+}
+
+
+.footer {
+
+    
+    color: white;
+    font-size: 40px;
+    background-color: black;
+    
+        
+}
+
+
+
+/* Media Queries para responsividade */
+@media (max-width: 768px) {
+
+    .logo{
+        height: 200px;
+        width: 200px;
+
+    }
+    .header {
+        font-size:3rem; /* Reduz o tamanho da fonte em telas menores */
+        padding: 100px; /* Ajusta o padding */
+    }
+
+    .wallpaper {
+        padding: 20px; /* Reduz o padding */
+        font-size: 40px;
+        height: auto; /* Permite que a altura se ajuste ao conteúdo */
+    }
+
+    .contato{
+
+        display: flex;
+        padding: 100px;
+        margin-left: 50%;
+        }
+}
+
+@media(max-width: 480px) {
+
+    .logo{
+        height: 100px;
+        width: 100px;
+
+    }
+
+    .header {
+        font-size:2rem; /* Reduz o tamanho da fonte em telas menores */
+        padding: 80px; /* Ajusta o padding */
+    }
+
+    .wallpaper {
+        padding: 10px; /* Reduz o padding */
+        font-size: 20px;
+        height: auto; /* Permite que a altura se ajuste ao conteúdo */
+    }
+
+}
+
+
